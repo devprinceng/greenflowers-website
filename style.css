@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: rgba(14, 70, 14, 0.78);
+    /* min-height: 30vh; */
+    padding: 30px;
+}
+
+/* nav-bar started */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+}
+
+.brand {
+    color: white;
+    display: flex;
+}
+
+.brand a {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    color: white !important;
+    text-decoration: none;
+}
+
+.brand a img {
+    margin-top: -7px;
+}
+
+.brand a h3 {
+    margin-left: 20px;
+}
+
+.right-side {
+    display: flex;
+}
+
+.right-side>div {
+    margin-left: 30px;
+}
+
+.right-side .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.right-side .nav-link a:hover {
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+/* nav-bar ended */
+
+/* header content started */
+.header-content {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .header-content {
+        flex-direction: column;
+    }
+}
+
+.header-content div {
+    width: 40%;
+    margin: auto;
+}
+
+.header-content-1 h1 {
+    font-size: 50px;
+}
+
+.header-content-1 p {
+    font-size: 24px;
+}
+
+.header-content-1 span {
+    color: rgb(232, 241, 63);
+}
+
+.header-content-1 button {
+    color: green;
+    background-color: rgb(232, 241, 63);
+    padding: 18px;
+    width: 240px;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+}
+
+.header-content-2 .pink {
+    background-color: rgb(232, 241, 63);
+    height: 330px;
+    width: 300px;
+    transform: rotate(10deg);
+}
+
+.header-content-2 .green {
+    background-color: green;
+    height: 330px;
+    width: 300px;
+    transform: rotate(160.5deg);
+}
+
+.header-content-2 .white {
+    /* background-color: white; */
+    height: 330px;
+    transform: rotate(195deg);
+}
+
+/* header-content end */
+
+
+/* Second-nav bar started */
+#second-section {
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(243, 243, 106);
+}
+
+#second-section .collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#second-section .collection div {
+    width: 30.3%;
+    margin:auto;
+    margin: 10px;
+}
+
+#second-section .collection div .lead a {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    margin: 0.7rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+#second-section .collection div .lead a:hover {
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+/* Second-secction bar ended */
+
+/* Third-section bar started */
+#third-section {
+    background-color: peachpuff;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+#third-section h1 {
+    font-size: 40px;
+}
+
+#third-section h3 {
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+#third-section p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#third-section .buy {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(14, 70, 14);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+#third-section .arrow-left {
+    margin-left: 200px;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(187, 146, 11, 0.575);
+    border-radius: 30% 70% 70% 30% / 70% 70% 30% 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#third-section .price {
+    background-color: rgb(14, 70, 14);
+    margin-top: 110px;
+    height: 100px;
+    width: 160px;
+    color: white;
+    position: absolute;
+    margin-left: 450px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.price pre {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+/* Fourth section started */
+.fourth-section {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/* Fourth section ended */
+
+/* STYLE FOR CONTACT PAGE */
+
+.contact-content {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.person {
+    display: flex;
+    width: 33.3%;
+    padding: 15px;
+    border: 2px solid green;
+    border-radius: 20px;
+    float: left;
+    margin: 20px;
+    color: green;
+    /* box-shadow: -5px 2px 3px 4px rgba(0,0,0,0.5); */
+    box-shadow: -10px 10px 8px 4px #888888;
+    border-radius: 90% 70% 80% 80% / 60% 70% 30% 20%;
+}
+.person:hover{
+    box-shadow: 7px 7px 2px 5px lightgreen;
+}
+
+.person .person-image {
+    width: 40%;
+    padding:10px;
+    margin:auto;
+
+}
+
+.person .person-image img {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.person .person-about {
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+
+/* footer-section bar started */
+.footer-section {
+    background-color: rgb(14, 70, 14);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* footer-section bar ended */
