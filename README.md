@@ -1,2 +1,2 @@
 # greenflowers-website
-Just some revamp on planthome website code
+A revamp on ENT3101 web dev task for greenflowers/planthome website.
